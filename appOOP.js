@@ -1,6 +1,6 @@
-var canvas = document.getElementById("canvas"),
+var canvas = document.getElementById("canvas"), //html canvas created
 ctx = canvas.getContext("2d");
-canvas.addEventListener('click', handleClick);
+canvas.addEventListener('click', handleClick); // click event listener
 
 function handleClick(e) {
     grid.drawSpreadsheet() // clean the spreadsheet. 
